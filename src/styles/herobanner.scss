@@ -1,0 +1,44 @@
+.flashcards-introduction-jumbotron {
+    height: 27.5vh;
+    min-height: 275px;
+    /* text-align: center; */
+    text-align: left;
+    /* background: url("../assets/hero-banner.jpg") no-repeat center center; */
+    background-color: #003366 !important;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    padding: 15px 25px;
+  }
+  
+  .flashcards-introduction-jumbotron .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .flashcards-introduction-jumbotron-description {
+    margin-right: 20px;
+  }
+  .flashcards-introduction-jumbotron-description h1 {
+    font-weight: 700;
+    color: #fff;
+  }
+  .flashcards-introduction-jumbotron-description p {
+    font-size: 24px;
+    color: #fff;
+  }
+  .flashcards-introduction-jumbotron-image {
+    height: 24vh;
+    min-height: 240px;
+  }
+  .flashcards-introduction-jumbotron-image img {
+    height: 100%;
+    width: auto;
+  }
+  .flashcards-introduction-jumbotron-button {
+    background-color: #CC9900 !important;
+    border-color: #CC9900 !important;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+  }

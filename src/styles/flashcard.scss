@@ -1,0 +1,31 @@
+.flashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    border-radius: 5px;
+    border-top: 5px solid #003366;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+    background-color: #fff;
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+    transition: 150ms;
+    transform-style: preserve-3d;
+    transform: perspective(100vw) rotateY(var(--rotate-y, 0));
+    &.flip {
+        --rotate-y: 180deg;
+    }
+    &:hover {
+        box-shadow: 0 4px 16px 0 rgba(0,0,0,0.12);
+    }
+    .front, .back {
+        position: absolute;
+        padding: 1rem;
+        backface-visibility: hidden;
+    }
+    .back {
+        transform: rotateY(180deg);
+    }
+}

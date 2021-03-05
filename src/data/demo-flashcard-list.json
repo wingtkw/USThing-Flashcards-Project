@@ -1,0 +1,74 @@
+[
+    {
+      "id": "flashcard-list-1",
+      "title": "Recent Flashcard List 1",
+      "description": "flashcard list 1 description",
+      "course_code": "DEMO1001",
+      "owner": "Owner 1",
+      "cards": [
+        {
+          "id": 1,
+          "question": "Demo Question 1",
+          "answer": "Demo Answer 1"
+        },
+        {
+          "id": 2,
+          "question": "Demo Question 2",
+          "answer": "Demo Answer 2"
+        },
+        {
+          "id": 3,
+          "question": "Demo Question 3",
+          "answer": "Demo Answer 3"
+        }
+      ]
+    },
+    {
+      "id": "flashcard-list-2",
+      "title": "Recent Flashcard List 2",
+      "description": "flashcard list 2 description",
+      "course_code": "DEMO1001",
+      "owner": "Owner 2",
+      "cards": [
+        {
+          "id": 1,
+          "question": "Demo Question 1",
+          "answer": "Demo Answer 1"
+        },
+        {
+          "id": 2,
+          "question": "Demo Question 2",
+          "answer": "Demo Answer 2"
+        },
+        {
+          "id": 3,
+          "question": "Demo Question 3",
+          "answer": "Demo Answer 3"
+        }
+      ]
+    },
+    {
+      "id": "flashcard-list-3",
+      "title": "Recent Flashcard List 3",
+      "description": "flashcard list 3 description",
+      "course_code": "DEMO1002",
+      "owner": "Owner 3",
+      "cards": [
+        {
+          "id": 1,
+          "question": "Demo Question 1",
+          "answer": "Demo Answer 1"
+        },
+        {
+          "id": 2,
+          "question": "Demo Question 2",
+          "answer": "Demo Answer 2"
+        },
+        {
+          "id": 3,
+          "question": "Demo Question 3",
+          "answer": "Demo Answer 3"
+        }
+      ]
+    }
+]
